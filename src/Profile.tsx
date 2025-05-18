@@ -34,7 +34,7 @@ const Profile = () => {
       >
         <motion.div variants={childVariants}>
           <p className="flex mb-2">
-            <span className="w-[100px] font-bold whitespace-nowrap">氏名：</span>
+            <span className="w-[100px] font-bold whitespace-nowrap ">氏名：</span>
             <span className="flex-1">政久泰輝</span>
           </p>
         </motion.div>
@@ -48,6 +48,12 @@ const Profile = () => {
           <p className="flex mb-2">
             <span className="w-[100px] font-bold whitespace-nowrap">所属研究室：</span>
             <span className="flex-1">学習工学研究室</span>
+          </p>
+        </motion.div>
+        <motion.div variants={childVariants}>
+          <p className="flex mb-2">
+            <span className="w-[100px] font-bold whitespace-nowrap">所属サークル：</span>
+            <span className="flex-1">ゲーム制作同好会</span>
           </p>
         </motion.div>
          
