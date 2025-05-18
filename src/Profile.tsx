@@ -26,41 +26,34 @@ const Profile = () => {
   };
 
   return (
-    <div>
+    <section className='w-[100%] mt-8'>
       <motion.div   //アニメーション
         initial="hidden"
         animate="visible"
         variants={containerVariants}
-        className="bg-slate-50 mx-auto mt-8 text-center "
       >
         <motion.div variants={childVariants}>
           <p className="flex mb-2">
-            <span className="label">氏名：</span>
-            <span className="value">政久泰輝</span>
+            <span className="w-[100px] font-bold whitespace-nowrap">氏名：</span>
+            <span className="flex-1">政久泰輝</span>
           </p>
         </motion.div>
         <motion.div variants={childVariants}>
-          <p className="flex">
-            <span className="label">所属大学：</span>
-            <span className="value">広島大学大学院先進理工学研究科情報科学プログラム</span>
+          <p className="flex mb-2">
+            <span className="w-[100px] font-bold whitespace-nowrap">所属大学：</span>
+            <span className="flex-1">広島大学大学院先進理工学研究科情報科学プログラム</span>
           </p>
         </motion.div>
         <motion.div variants={childVariants}>
-          <p className="flex">
-            <span className="label">所属研究室：</span>
-            <span className="value">学習工学研究室</span>
-          </p>
-        </motion.div>
-        <motion.div variants={childVariants}>
-          <p className="flex">
-            <span className="label">指導教員：</span>
-            <span className="value">林 雄介 教授</span>
+          <p className="flex mb-2">
+            <span className="w-[100px] font-bold whitespace-nowrap">所属研究室：</span>
+            <span className="flex-1">学習工学研究室</span>
           </p>
         </motion.div>
          
       </motion.div>
     
-    </div>
+    </section>
   )
 }
 

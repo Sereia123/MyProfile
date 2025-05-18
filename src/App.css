@@ -1,0 +1,25 @@
+@charset "utf-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .underline-animate::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 300%;
+    height: 1px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+
+  }
+
+  .underline-animate-active::after {
+    transform: scaleX(1);
+  }
+}
