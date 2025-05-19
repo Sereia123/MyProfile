@@ -75,3 +75,12 @@
   width: 20%;
   margin-bottom: 100px;
 }
+
+.scroll-box {
+  max-height: 300px;
+  overflow-x: auto;
+  padding: 1rem;
+  background-color: #ffe0c4;
+  border-radius: 8px;
+  justify-content: space-between;
+}

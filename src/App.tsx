@@ -2,7 +2,7 @@ import './App.css';
 import Profile from './Profile';
 import Study from './Study';
 import Hobby from './Hobby'
-import Output from './Output';
+import Club from './Club';
 import {motion} from "framer-motion";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Profile />  {/*自身のプロフィール*/}
         <Study />    {/*研究概要*/}
         <Hobby />
-        <Output />
+        <Club />
       </div>
     </div>
     

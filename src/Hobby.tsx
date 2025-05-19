@@ -104,7 +104,6 @@ const Hobby = () => {
             )}
           </AnimatePresence>
         </div>
-        
          
       </motion.div>
     </section>
