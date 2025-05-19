@@ -5,12 +5,12 @@
 
 
 @layer utilities {
-  .underline-animate::after {
+  .underline-animateR::after {
     content: '';
     position: absolute;
     bottom: -5px;
     right: 0;
-    width: 300%;
+    width: 300px;
     height: 1px;
     background-color: currentColor;
     transform: scaleX(0);
@@ -19,7 +19,27 @@
 
   }
 
-  .underline-animate-active::after {
+  .underline-animateR-active::after {
+    transform: scaleX(1);
+  }
+}
+
+@layer utilities {
+  .underline-animateL::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 300px;
+    height: 1px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1s ease;
+
+  }
+
+  .underline-animateL-active::after {
     transform: scaleX(1);
   }
 }
@@ -35,4 +55,23 @@
   font-size: 24px;
   padding: 0 8px 4px;
   cursor: pointer;
+}
+
+.container {
+  margin-top: 2rem;           
+  width: 640px;            
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 100%;          
+  }
+}
+
+.element{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+  margin-bottom: 100px;
 }

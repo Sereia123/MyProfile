@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import {motion} from "framer-motion";
-import './App.css';
 import StudyImg from './StudyImg';
 
 const Study = () => {
@@ -9,15 +8,15 @@ const Study = () => {
   const [showUnderline, setShowUnderline] = useState<boolean>(false)
 
   return (
-    <section className='mt-8 ml-auto w-[640px] max-sm:w-[100%] '>
+    <section className='ml-auto container'>
       <motion.div //アニメーション
-        initial={{opacity: 0, y: 40}}
-        animate={{opacity: 1, y: 0}}
+        initial={{opacity: 0, x: -40}}
+        animate={{opacity: 1, x: 0}}
         transition={{duration: 1.3, delay: .8}}
         onAnimationComplete={() => setShowUnderline(true)}
       >
         <div className='text-right mr-[3%]'>
-          <h2 className={`text-2xl font-bold font-sans relative inline-block ${showUnderline ? 'underline-animate underline-animate-active' : 'underline-animate'}`}>
+          <h2 className={`text-2xl font-bold font-sans relative inline-block ${showUnderline ? 'underline-animateR underline-animateR-active' : 'underline-animateR'}`}>
             研究概要
 
           </h2>
