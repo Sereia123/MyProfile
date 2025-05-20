@@ -16,6 +16,7 @@ import dot8 from './img/dot/主人公(立ち絵0).png'
 import dot9 from './img/dot/主人公(立ち絵1).png'
 import dot10 from './img/dot/主人公(立ち絵2).png'
 import CD from './img/CDjacket_0.png'
+import bgm from './sound/BGMsample1_mp3.mp3'
 
 const dotData = [
   { src: dot1, alt: "ドット絵１" },
@@ -78,7 +79,7 @@ const Club = () => {
             </p>
             <div className='mx-[14%] my-4'>
               <audio controls>
-              <source src={""} type="audio/mpeg" />
+              <source src={bgm} type="audio/mpeg" />
             </audio>
             </div>
             
