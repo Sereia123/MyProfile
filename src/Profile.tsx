@@ -26,7 +26,7 @@ const Profile = () => {
   };
 
   return (
-    <section className='w-[100%] mt-8'>
+    <section className='w-[640px] mt-4 bg-white/70'>
       <motion.div   //アニメーション
         initial="hidden"
         animate="visible"

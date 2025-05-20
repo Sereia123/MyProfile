@@ -8,7 +8,7 @@ const Study = () => {
   const [showUnderline, setShowUnderline] = useState<boolean>(false)
 
   return (
-    <section className='ml-auto container'>
+    <section className='ml-auto container bg-white/70'>
       <motion.div //アニメーション
         initial={{opacity: 0, x: -40}}
         animate={{opacity: 1, x: 0}}

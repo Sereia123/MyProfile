@@ -57,7 +57,7 @@ const Hobby = () => {
   const selectedHobby = openIndex !== null ? hobbies[openIndex] : null;
 
   return (
-    <section className='container'>
+    <section className='container bg-white/70'>
       <motion.div //アニメーション
         ref={ref}
         initial={{opacity: 0, x: 40}}
@@ -68,6 +68,10 @@ const Hobby = () => {
         <div className='text-left ml-[3%]'>
           <h2 className={`text-2xl font-bold font-sans relative inline-block ${showUnderline ? 'underline-animateL underline-animateL-active' : 'underline-animateL'}`}>
            趣味
+
+            <div className='ml-[30%] text-sm w-[200px]'>
+              ~Click icon to view details~
+            </div>
           </h2>
         </div>
 

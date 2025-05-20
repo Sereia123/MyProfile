@@ -27,7 +27,7 @@ const StudyImg = () => {
       setCurrentSlide((prev) => Math.min(prev + 1, images.length - 1));
     };
   return (
-    <div className="w-[300px] overflow-hidden  mx-auto box-border relative">
+    <div className="w-[400px] overflow-hidden  mx-auto box-border relative">
       <ul ref={ulRef} className="list-none m-0 p-0 flex items-center transition-transform duration-500 ease-in-out">
         {images.map((src, index) => (
           <li key={index} className='min-w-full'>
