@@ -45,7 +45,7 @@ const Study = () => {
 
             <p className='mt-2 ml-[220px]'>
               モンサクン・チェックはこちら→
-              <a href="https://github.com/Sereia123/Monsakun_Check" target="_blank" rel="noopener noreferrer " className="text-blue-500 underline visited:text-purple-800">
+              <a href="https://monsakun-check.vercel.app/" target="_blank" rel="noopener noreferrer " className="text-blue-500 underline visited:text-purple-800">
                 モンサクン・チェック(開発中)
               </a>
             </p>

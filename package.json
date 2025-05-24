@@ -2,7 +2,7 @@
   "name": "my-profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sereia123.github.io/MyProfile",
+  "homepage": "https://sereia123.github.io/MyProfile/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
