@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/MyProfile/static/css/main.a54e8453.css",
+    "main.js": "/MyProfile/static/js/main.a12d5821.js",
+    "static/media/CheckExecute.mp4": "/MyProfile/static/media/CheckExecute.0ddb5e044a1898fa77c2.mp4",
+    "static/media/BGMsample2_wav.wav": "/MyProfile/static/media/BGMsample2_wav.fa9f556cf96a08c95eba.wav",
+    "static/media/BGMsample3_wav.wav": "/MyProfile/static/media/BGMsample3_wav.35fc2016b1e136fe3854.wav",
+    "static/media/illust_3.png": "/MyProfile/static/media/illust_3.23688e810b3915d16d62.png",
+    "static/media/illust_2.png": "/MyProfile/static/media/illust_2.60945f3ecb1831ac5090.png",
+    "static/media/illust_8.png": "/MyProfile/static/media/illust_8.d340cce0508b98e0c949.png",
+    "static/media/illust_4.png": "/MyProfile/static/media/illust_4.eddcfead44223742d950.png",
+    "static/media/illust_5.png": "/MyProfile/static/media/illust_5.415baa16a6e177f83ff6.png",
+    "static/media/illust_7.png": "/MyProfile/static/media/illust_7.e12ef4227213400936af.png",
+    "static/media/背景.png": "/MyProfile/static/media/背景.58ba6953acfe1026a12c.png",
+    "static/media/illust_6.png": "/MyProfile/static/media/illust_6.c1c2719874523ec436f6.png",
+    "static/media/illust_1.png": "/MyProfile/static/media/illust_1.5d39abc940aceed1081e.png",
+    "static/media/タイトル画面.png": "/MyProfile/static/media/タイトル画面.fdb65e5b0abc7c4a5cf4.png",
+    "static/media/CDjacket_0.png": "/MyProfile/static/media/CDjacket_0.4947013d978946907327.png",
+    "static/media/BGMsample1_mp3.mp3": "/MyProfile/static/media/BGMsample1_mp3.577f2ef00ebe2522c301.mp3",
+    "static/media/test1.mp4": "/MyProfile/static/media/test1.a0bb9742085c552f3bc6.mp4",
+    "static/media/text2.png": "/MyProfile/static/media/text2.cb4f04982bbeae62708b.png",
+    "static/media/text3.png": "/MyProfile/static/media/text3.bc1e356e9c847c886f09.png",
+    "static/media/Monsakun_ui.png": "/MyProfile/static/media/Monsakun_ui.8b3bbd171dc631f5ddcd.png",
+    "static/media/text1.png": "/MyProfile/static/media/text1.286dfc35fbb960caef0d.png",
+    "static/media/Stack Logo E5c47e.png": "/MyProfile/static/media/Stack Logo E5c47e.c3126b7414016b1d6b2e.png",
+    "index.html": "/MyProfile/index.html",
+    "main.a54e8453.css.map": "/MyProfile/static/css/main.a54e8453.css.map",
+    "main.a12d5821.js.map": "/MyProfile/static/js/main.a12d5821.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a54e8453.css",
+    "static/js/main.a12d5821.js"
+  ]
+}
