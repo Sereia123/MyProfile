@@ -1,8 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 import {motion} from "framer-motion";
-import movie from './video/CheckExecute.mp4'
 import Monsakun from './img/Monsakun_ui.png';
+import Check1 from './img/Check_1.png';
+import Check2 from './img/Check_2.png';
+
 
 const Study = () => {
 
@@ -33,17 +35,17 @@ const Study = () => {
         <div className='flex flex-col mt-5'>
           <>
             <img src={Monsakun} alt="モンサクンUI" className='w-[400px] max-sm:[300px]' />
-            <p className='mt-1 font-bold ml-[145px]'>図：モンサクン</p>
+            <p className='mt-2 font-bold ml-[145px] mb-4'>図：モンサクン</p>
           </>
           
           <>
-            <video className='mt-8 ml-auto w-[500px] max-sm:[300px] '  controls>
-              <source src={movie} type="video/mp4" />
-                お使いのブラウザは video タグに対応していません。
-            </video>
-            <p className='mt-1 font-bold ml-[300px]'>動画：モンサクン・チェック</p>
+            <img src={Check1} alt="モンサクンUI" className='w-[400px] max-sm:[300px] ml-auto ' />
+            <p className='mt-2 font-bold ml-[350px] mb-4 '>図：モンサクン・チェック_修正</p>
 
-            <p className='mt-2 ml-[220px]'>
+            <img src={Check2} alt="モンサクンUI" className='w-[400px] max-sm:[300px] ' />
+            <p className='mt-2 font-bold ml-[120px] mb-4'>図：モンサクン・チェック_判定</p>
+
+            <p className='mt-2 ml-[220px] font-bold '>
               モンサクン・チェックはこちら→
               <a href="https://monsakun-check.vercel.app/" target="_blank" rel="noopener noreferrer " className="text-blue-500 underline visited:text-purple-800">
                 モンサクン・チェック(開発中)

@@ -31,29 +31,30 @@ const Profile = () => {
         initial="hidden"
         animate="visible"
         variants={containerVariants}
+        className='text-xl'
       >
         <motion.div variants={childVariants}>
           <p className="flex mb-2">
             <span className="w-[100px] font-bold whitespace-nowrap ">氏名：</span>
-            <span className="flex-1">政久泰輝</span>
+            <span className="flex-1 ml-[50px]">政久泰輝</span>
           </p>
         </motion.div>
         <motion.div variants={childVariants}>
           <p className="flex mb-2">
             <span className="w-[100px] font-bold whitespace-nowrap">所属大学：</span>
-            <span className="flex-1">広島大学大学院先進理工学研究科情報科学プログラム</span>
+            <span className="flex-1 ml-[50px]">広島大学大学院先進理工学研究科情報科学プログラム</span>
           </p>
         </motion.div>
         <motion.div variants={childVariants}>
           <p className="flex mb-2">
             <span className="w-[100px] font-bold whitespace-nowrap">所属研究室：</span>
-            <span className="flex-1">学習工学研究室</span>
+            <span className="flex-1 ml-[50px]">学習工学研究室</span>
           </p>
         </motion.div>
         <motion.div variants={childVariants}>
           <p className="flex mb-2">
             <span className="w-[100px] font-bold whitespace-nowrap">所属サークル：</span>
-            <span className="flex-1">ゲーム制作同好会</span>
+            <span className="flex-1 ml-[50px]">ゲーム制作同好会</span>
           </p>
         </motion.div>
          
