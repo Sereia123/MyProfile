@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyProfile/static/css/main.3ce3bcaa.css",
-    "main.js": "/MyProfile/static/js/main.65ed3152.js",
+    "main.js": "/MyProfile/static/js/main.22ac8000.js",
     "static/media/BGMsample2_wav.wav": "/MyProfile/static/media/BGMsample2_wav.fa9f556cf96a08c95eba.wav",
     "static/media/BGMsample3_wav.wav": "/MyProfile/static/media/BGMsample3_wav.35fc2016b1e136fe3854.wav",
     "static/media/illust_3.png": "/MyProfile/static/media/illust_3.23688e810b3915d16d62.png",
@@ -14,7 +14,7 @@
     "static/media/illust_6.png": "/MyProfile/static/media/illust_6.c1c2719874523ec436f6.png",
     "static/media/illust_1.png": "/MyProfile/static/media/illust_1.5d39abc940aceed1081e.png",
     "static/media/タイトル画面.png": "/MyProfile/static/media/タイトル画面.fdb65e5b0abc7c4a5cf4.png",
-    "static/media/CDjacket_0.png": "/MyProfile/static/media/CDjacket_0.4947013d978946907327.png",
+    "static/media/CDjacket_0.png": "/MyProfile/static/media/CDjacket_0.8fb1f7a4052db95d46d3.png",
     "static/media/BGMsample1_mp3.mp3": "/MyProfile/static/media/BGMsample1_mp3.577f2ef00ebe2522c301.mp3",
     "static/media/test1.mp4": "/MyProfile/static/media/test1.a0bb9742085c552f3bc6.mp4",
     "static/media/text2.png": "/MyProfile/static/media/text2.cb4f04982bbeae62708b.png",
@@ -26,10 +26,10 @@
     "static/media/Stack Logo E5c47e.png": "/MyProfile/static/media/Stack Logo E5c47e.c3126b7414016b1d6b2e.png",
     "index.html": "/MyProfile/index.html",
     "main.3ce3bcaa.css.map": "/MyProfile/static/css/main.3ce3bcaa.css.map",
-    "main.65ed3152.js.map": "/MyProfile/static/js/main.65ed3152.js.map"
+    "main.22ac8000.js.map": "/MyProfile/static/js/main.22ac8000.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce3bcaa.css",
-    "static/js/main.65ed3152.js"
+    "static/js/main.22ac8000.js"
   ]
 }
