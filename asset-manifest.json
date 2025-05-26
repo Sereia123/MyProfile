@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/MyProfile/static/css/main.a54e8453.css",
-    "main.js": "/MyProfile/static/js/main.f9433225.js",
-    "static/media/CheckExecute.mp4": "/MyProfile/static/media/CheckExecute.0ddb5e044a1898fa77c2.mp4",
+    "main.css": "/MyProfile/static/css/main.3ce3bcaa.css",
+    "main.js": "/MyProfile/static/js/main.65ed3152.js",
     "static/media/BGMsample2_wav.wav": "/MyProfile/static/media/BGMsample2_wav.fa9f556cf96a08c95eba.wav",
     "static/media/BGMsample3_wav.wav": "/MyProfile/static/media/BGMsample3_wav.35fc2016b1e136fe3854.wav",
     "static/media/illust_3.png": "/MyProfile/static/media/illust_3.23688e810b3915d16d62.png",
@@ -22,13 +21,15 @@
     "static/media/text3.png": "/MyProfile/static/media/text3.bc1e356e9c847c886f09.png",
     "static/media/Monsakun_ui.png": "/MyProfile/static/media/Monsakun_ui.8b3bbd171dc631f5ddcd.png",
     "static/media/text1.png": "/MyProfile/static/media/text1.286dfc35fbb960caef0d.png",
+    "static/media/Check_2.png": "/MyProfile/static/media/Check_2.a2682918b7c87baa7bf4.png",
+    "static/media/Check_1.png": "/MyProfile/static/media/Check_1.5b505f2404acaa6b6192.png",
     "static/media/Stack Logo E5c47e.png": "/MyProfile/static/media/Stack Logo E5c47e.c3126b7414016b1d6b2e.png",
     "index.html": "/MyProfile/index.html",
-    "main.a54e8453.css.map": "/MyProfile/static/css/main.a54e8453.css.map",
-    "main.f9433225.js.map": "/MyProfile/static/js/main.f9433225.js.map"
+    "main.3ce3bcaa.css.map": "/MyProfile/static/css/main.3ce3bcaa.css.map",
+    "main.65ed3152.js.map": "/MyProfile/static/js/main.65ed3152.js.map"
   },
   "entrypoints": [
-    "static/css/main.a54e8453.css",
-    "static/js/main.f9433225.js"
+    "static/css/main.3ce3bcaa.css",
+    "static/js/main.65ed3152.js"
   ]
 }
