@@ -8,8 +8,7 @@ const MovieOutput = () => {
 
        <div className='ml-[100px] mt-4'>
           <video className='w-[500px] max-sm:[300px] '  controls>
-            <source src={movie} type="video/mp4" />
-            お使いのブラウザは video タグに対応していません。
+            <source src={""} type="video/mp4" />
           </video>
         </div>
 

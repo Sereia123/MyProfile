@@ -3,7 +3,7 @@ import { useState } from 'react';
 import {motion} from "framer-motion";
 import Monsakun from './img/Monsakun_ui.png';
 import Check1 from './img/Check_1.png';
-import Check2 from './img/Check_2.png';
+import Check2 from './img/Check_2.png'
 
 
 const Study = () => {
