@@ -4,6 +4,7 @@ import Study from './Study';
 import Hobby from './Hobby'
 import Club from './Club';
 import {motion} from "framer-motion";
+import SoundLearning from './SoundLearning';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Study />    
           <Hobby />
           <Club />
+          <SoundLearning />
           
         </div>
       </div>
