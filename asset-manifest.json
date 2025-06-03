@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyProfile/static/css/main.3ce3bcaa.css",
-    "main.js": "/MyProfile/static/js/main.2c74483c.js",
+    "main.js": "/MyProfile/static/js/main.e84d0070.js",
     "static/media/BGMsample2_wav.wav": "/MyProfile/static/media/BGMsample2_wav.fa9f556cf96a08c95eba.wav",
     "static/media/BGMsample3_wav.wav": "/MyProfile/static/media/BGMsample3_wav.35fc2016b1e136fe3854.wav",
     "static/media/illust_3.png": "/MyProfile/static/media/illust_3.23688e810b3915d16d62.png",
@@ -22,13 +22,14 @@
     "static/media/text1.png": "/MyProfile/static/media/text1.286dfc35fbb960caef0d.png",
     "static/media/Check_2.png": "/MyProfile/static/media/Check_2.f5b1794e77d52c6876a5.png",
     "static/media/Check_1.png": "/MyProfile/static/media/Check_1.51b991da284d2023554e.png",
+    "static/media/musiclearning.png": "/MyProfile/static/media/musiclearning.d32dfd8a1983c7af4cd2.png",
     "static/media/Stack Logo E5c47e.png": "/MyProfile/static/media/Stack Logo E5c47e.c3126b7414016b1d6b2e.png",
     "index.html": "/MyProfile/index.html",
     "main.3ce3bcaa.css.map": "/MyProfile/static/css/main.3ce3bcaa.css.map",
-    "main.2c74483c.js.map": "/MyProfile/static/js/main.2c74483c.js.map"
+    "main.e84d0070.js.map": "/MyProfile/static/js/main.e84d0070.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce3bcaa.css",
-    "static/js/main.2c74483c.js"
+    "static/js/main.e84d0070.js"
   ]
 }
